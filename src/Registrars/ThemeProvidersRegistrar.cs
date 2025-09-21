@@ -11,4 +11,11 @@ public static class ThemeProvidersRegistrar
 
         return services;
     }
+
+    public static IServiceCollection AddEmptyThemeProviderAsScoped(this IServiceCollection services)
+    {
+        services.AddScoped<IThemeProvider, ThemeProvider>();
+
+        return services;
+    }
 }
