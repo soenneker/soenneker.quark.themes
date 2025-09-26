@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 namespace Soenneker.Quark;
 
 ///<inheritdoc cref="IThemeProvider"/>
-public class ThemeProvider : IThemeProvider
+public sealed class ThemeProvider : IThemeProvider
 {
     public string? CurrentTheme { get; set; }
 

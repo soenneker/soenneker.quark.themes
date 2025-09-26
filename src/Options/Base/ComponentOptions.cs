@@ -83,4 +83,39 @@ public class ComponentOptions
     public CssValue<ColorBuilder>? BackgroundColor { get; set; }
 
     public CssValue<ColorBuilder>? TextBackgroundColor { get; set; }
+
+    // Additional builders that were missing
+    public CssValue<AnimationBuilder>? Animation { get; set; }
+
+    public CssValue<AspectRatioBuilder>? AspectRatio { get; set; }
+
+    public CssValue<BackdropFilterBuilder>? BackdropFilter { get; set; }
+
+    public CssValue<BorderRadiusBuilder>? BorderRadius { get; set; }
+
+    public CssValue<ClearfixBuilder>? Clearfix { get; set; }
+
+    public CssValue<ClipPathBuilder>? ClipPath { get; set; }
+
+    public CssValue<CursorBuilder>? Cursor { get; set; }
+
+    public CssValue<FilterBuilder>? Filter { get; set; }
+
+    public CssValue<InteractionBuilder>? Interaction { get; set; }
+
+    public CssValue<ObjectPositionBuilder>? ObjectPosition { get; set; }
+
+    public CssValue<ResizeBuilder>? Resize { get; set; }
+
+    public CssValue<ScreenReaderBuilder>? ScreenReader { get; set; }
+
+    public CssValue<ScrollBehaviorBuilder>? ScrollBehavior { get; set; }
+
+    public CssValue<StretchedLinkBuilder>? StretchedLink { get; set; }
+
+    public CssValue<TransformBuilder>? Transform { get; set; }
+
+    public CssValue<TransitionBuilder>? Transition { get; set; }
+
+    public CssValue<TruncateBuilder>? Truncate { get; set; }
 }
