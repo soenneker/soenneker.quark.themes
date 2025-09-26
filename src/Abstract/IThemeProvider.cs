@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Soenneker.Quark.Themes.Options.Base;
 using Soenneker.Quark.Variables.Bootstrap;
 
-namespace Soenneker.Quark.Themes.Abstract;
+namespace Soenneker.Quark;
 
 public interface IThemeProvider
 {

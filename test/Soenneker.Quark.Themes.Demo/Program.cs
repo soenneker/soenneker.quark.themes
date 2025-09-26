@@ -5,8 +5,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.JSInterop;
 using Serilog;
 using Serilog.Debugging;
-using Soenneker.Quark.Themes.Options;
-using Soenneker.Quark.Themes.Registrars;
 using Soenneker.Serilog.Sinks.Browser.Blazor.Registrars;
 using System;
 using System.Collections.Generic;

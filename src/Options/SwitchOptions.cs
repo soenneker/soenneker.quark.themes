@@ -1,6 +1,4 @@
-using Soenneker.Quark.Themes.Options.Base;
-
-namespace Soenneker.Quark.Themes.Options;
+namespace Soenneker.Quark;
 
 public class SwitchOptions : ComponentOptions
 {

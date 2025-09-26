@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Soenneker.Quark.Themes.Abstract;
-using Soenneker.Quark.Themes.Options.Base;
 using Soenneker.Quark.Variables.Bootstrap;
 using Soenneker.Quark.Variables.Bootstrap.Utils;
 
-namespace Soenneker.Quark.Themes;
+namespace Soenneker.Quark;
 
 ///<inheritdoc cref="IThemeProvider"/>
 public class ThemeProvider : IThemeProvider

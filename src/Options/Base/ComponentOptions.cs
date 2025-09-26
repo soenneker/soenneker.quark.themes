@@ -32,7 +32,7 @@ using Soenneker.Quark.Components.Builders.Visibilities;
 using Soenneker.Quark.Components.Builders.Widths;
 using Soenneker.Quark.Components.Builders.ZIndexes;
 
-namespace Soenneker.Quark.Themes.Options.Base;
+namespace Soenneker.Quark;
 
 public class ComponentOptions
 {

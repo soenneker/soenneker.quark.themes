@@ -1,6 +1,4 @@
-﻿using Soenneker.Quark.Themes.Options;
-
-namespace Soenneker.Quark.Themes;
+﻿namespace Soenneker.Quark;
 
 public sealed class Theme
 {

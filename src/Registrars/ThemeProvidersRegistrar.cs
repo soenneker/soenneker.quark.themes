@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Soenneker.Quark.Themes.Abstract;
 
-namespace Soenneker.Quark.Themes.Registrars;
+namespace Soenneker.Quark;
 
 public static class ThemeProvidersRegistrar
 {
