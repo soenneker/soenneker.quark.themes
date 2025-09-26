@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Soenneker.Quark.Components.Builders.Colors;
 
 namespace Soenneker.Quark.Themes.Demo;
 
