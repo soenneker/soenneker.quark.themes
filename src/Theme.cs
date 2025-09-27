@@ -21,13 +21,16 @@ public sealed class Theme
     public ImageOptions? Images { get; set; }
     public LabelOptions? Labels { get; set; }
     public LayoutOptions? Layouts { get; set; }
-    public ListItemOptions? ListItems { get; set; }
+
     public MemoEditOptions? MemoEdits { get; set; }
     public ModalOptions? Modals { get; set; }
     public NavOptions? Navs { get; set; }
     public NumericEditOptions? NumericEdits { get; set; }
     public OffcanvasOptions? Offcanvases { get; set; }
     public OrderedListOptions? OrderedLists { get; set; }
+
+    public OrderedListItemOptions? OrderedListItems { get; set; }
+
     public PaginationOptions? Paginations { get; set; }
     public ParagraphOptions? Paragraphs { get; set; }
     public ProgressOptions? Progresses { get; set; }
@@ -44,5 +47,8 @@ public sealed class Theme
     public TabOptions? Tabs { get; set; }
     public TextEditOptions? TextEdits { get; set; }
     public TextOptions? Texts { get; set; }
+
     public UnorderedListOptions? UnorderedLists { get; set; }
+
+    public UnorderedListItemOptions? UnorderedListItems { get; set; }
 }

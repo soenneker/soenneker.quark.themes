@@ -84,7 +84,6 @@ public class ComponentOptions
 
     public CssValue<ColorBuilder>? TextBackgroundColor { get; set; }
 
-    // Additional builders that were missing
     public CssValue<AnimationBuilder>? Animation { get; set; }
 
     public CssValue<AspectRatioBuilder>? AspectRatio { get; set; }

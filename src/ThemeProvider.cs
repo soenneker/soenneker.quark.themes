@@ -57,7 +57,7 @@ public sealed class ThemeProvider : IThemeProvider
         ["Image"] = theme => theme.Images,
         ["Label"] = theme => theme.Labels,
         ["Layout"] = theme => theme.Layouts,
-        ["ListItem"] = theme => theme.ListItems,
+        ["ListItem"] = theme => theme.UnorderedListItems,
         ["MemoEdit"] = theme => theme.MemoEdits,
         ["Modal"] = theme => theme.Modals,
         ["Nav"] = theme => theme.Navs,
